@@ -7,8 +7,8 @@ basics:
   website: "https://hestia-park.github.io/"
   summary: >
     Hello, I'm Park, HyunJi from HanWha Vision AI Labs.<br>
-    I'm familiar with C++, Python and a bit of Rust.<br>
-    I'd like to describe myself as a fast-learner & early-adopter.<br>
+    I'm familiar with C++, Python.<br>
+    I'd like to describe myself as a fast-learner & early-adopter. visit My Playground! https://myplaygroundwithnotion.notion.site/Resume-74b342fce9764ce4a7896755dee48a4f?pvs=4 <br>
   # location:
   #   address: "2712 Broadway St"
   #   postalCode: "CA 94115"
@@ -21,7 +21,7 @@ basics:
       url: "https://github.com/hestia-park"
     - network: "LinkedIn"
       username: "Park, HyunJi"
-      url: ""
+      url: "https://www.linkedin.com/in/hyunji-park-360639204/"
 work:
   - company: "HanWha Vision AI Labs"
     position: "AI Researcher & Developer"
