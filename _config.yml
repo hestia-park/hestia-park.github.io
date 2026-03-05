@@ -37,3 +37,7 @@ search: true
 
 google_analytics:
   id: ""
+  
+html-proofer:
+  ignore_urls:
+    - "/tags/"
