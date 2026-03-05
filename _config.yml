@@ -2,11 +2,11 @@ lang: ko-KR
 timezone: America/Toronto
 
 title: Hestia's Blog
-tagline: 일상, 뷰티, 생각들을 기록하는 공간
+tagline: 일상, 생각들을 기록하는 공간
 
 description: >-
   캐나다 토론토에서 쓰는 일상 블로그.
-  뷰티, 네일, 라이프, IT 등 다양한 주제를 기록합니다.
+  도전, 라이프, IT 등 다양한 주제를 기록합니다.
 
 url: "https://hestia-park.github.io"
 baseurl: ""
@@ -19,49 +19,18 @@ social:
   email: ""
   links: []
 
-# 테마 설정
 theme: jekyll-theme-chirpy
 
-# 라이트 모드 고정
-defaults:
-  - scope:
-      path: ""
-    values:
-      theme_mode: light  # light | dark | 비워두면 토글 가능
-
-# 아바타 이미지 (나중에 본인 사진으로 교체)
 avatar: /assets/img/avatar.jpg
 
-# 댓글 비활성화 (나중에 설정 가능)
 comments:
   active: ""
 
-# TOC (오른쪽 목차) 활성화
 toc: true
 
-# 페이지당 포스트 수
 paginate: 10
 
-# 검색 활성화
 search: true
 
-# Analytics (나중에 Google Analytics ID 입력)
 google_analytics:
   id: ""
-
-# 플러그인
-# plugins:
-#   - jekyll-feed
-#   - jekyll-sitemap
-#   - jekyll-seo-tag
-#   - jekyll-paginate
-
-# 카테고리 설정 (포스트에서 자동으로 생성됨)
-# 아래는 참고용
-# categories:
-#   - 일상/라이프
-#   - 뷰티/네일
-#   - 캐나다/토론토
-#   - IT/자동화
-#   - 맛집/카페
-#   - 생각/에세이
