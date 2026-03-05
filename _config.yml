@@ -32,10 +32,6 @@ defaults:
 # 아바타 이미지 (나중에 본인 사진으로 교체)
 avatar: /assets/img/avatar.jpg
 
-# 사이드바 소셜 아이콘 (원하는 것만 남기기)
-github:
-  username: hestia-park
-
 # 댓글 비활성화 (나중에 설정 가능)
 comments:
   active: ""
