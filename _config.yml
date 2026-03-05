@@ -54,11 +54,11 @@ google_analytics:
   id: ""
 
 # 플러그인
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-paginate
+# plugins:
+#   - jekyll-feed
+#   - jekyll-sitemap
+#   - jekyll-seo-tag
+#   - jekyll-paginate
 
 # 카테고리 설정 (포스트에서 자동으로 생성됨)
 # 아래는 참고용
