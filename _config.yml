@@ -17,7 +17,8 @@ github:
 social:
   name: Hestia
   email: ""
-  links: []
+  links:
+    - https://github.com/hestia-park
 
 theme: jekyll-theme-chirpy
 
