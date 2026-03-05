@@ -2,7 +2,7 @@
 title: "Small Biz Day 1: Nail Tip Market Research on Etsy"
 date: 2026-03-04 10:00:00 +0900
 categories: [Small Biz, Market Research]
-tags: [nail, etsy, market research, automation, python, small business]
+tags: [nail, etsy, market research, automation, python, small business, canada]
 description: Day one of researching the nail tip market on Etsy
 ---
 
