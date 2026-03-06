@@ -1,38 +1,138 @@
-:root {
-  --accent-color: #2B4C8C;
-  --accent-color-hover: #1a3a7a;
-  --accent-light: #E8EEF8;
+---
+---
+
+/* =============================================
+   💙 Hestia's Blog - Custom Style
+   Blue/Navy Theme for Chirpy
+   ============================================= */
+
+/* ── 사이드바 배경 ─────────────────────────── */
+#sidebar {
+  background: linear-gradient(180deg, #1a2f5e 0%, #2B4C8C 60%, #1e3a6e 100%) !important;
+
+  .site-title a {
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.3px;
+  }
+
+  .site-subtitle {
+    color: rgba(255, 255, 255, 0.65) !important;
+    font-size: 0.82rem;
+  }
+
+  /* 사이드바 아이콘 */
+  .sidebar-bottom .btn {
+    color: rgba(255, 255, 255, 0.7) !important;
+    &:hover { color: #ffffff !important; }
+  }
 }
 
+/* ── 사이드바 메뉴 ────────────────────────── */
+#sidebar nav {
+  .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 8px;
+    margin: 2px 0;
+    transition: all 0.2s;
+
+    span { color: rgba(255, 255, 255, 0.8) !important; }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15) !important;
+      color: #ffffff !important;
+      span { color: #ffffff !important; }
+    }
+
+    &.active {
+      background: rgba(255, 255, 255, 0.2) !important;
+      color: #ffffff !important;
+      font-weight: 600;
+      span { color: #ffffff !important; }
+    }
+  }
+}
+
+/* ── 링크 색상 ────────────────────────────── */
 a {
   color: #2B4C8C;
   &:hover { color: #1a3a7a; }
 }
 
-#sidebar {
-  background: linear-gradient(160deg, #1a2f5e 0%, #2B4C8C 100%);
-  .nav-link {
-    color: rgba(255,255,255,0.85);
-    &:hover, &.active {
-      color: #fff;
-      background: rgba(255,255,255,0.15);
-      border-radius: 8px;
-    }
-  }
-  .site-title a { color: #ffffff; font-weight: 700; }
-  .site-subtitle { color: rgba(255,255,255,0.7); }
-}
-
+/* ── 제목 색상 ────────────────────────────── */
 h1, h2, h3 { color: #1a2f5e; }
 
-.post-tag {
-  background: #E8EEF8;
-  color: #2B4C8C;
-  border: 1px solid #c5d3ec;
-  border-radius: 20px;
-  padding: 2px 10px;
-  font-size: 0.8rem;
-  &:hover { background: #2B4C8C; color: white; }
+/* ── 포스트 제목 (목록) ───────────────────── */
+.post-preview .preview-img + div h1 a,
+.post-preview h1 a,
+.card-title a {
+  color: #1a2f5e !important;
+  &:hover { color: #2B4C8C !important; }
 }
 
-::selection { background: #c5d3ec; color: #1a2f5e; }
+/* ── 태그 ────────────────────────────────── */
+.post-tag, .btn.btn-outline-primary {
+  background: #E8EEF8 !important;
+  color: #2B4C8C !important;
+  border: 1px solid #c5d3ec !important;
+  border-radius: 20px;
+  padding: 2px 12px;
+  font-size: 0.78rem;
+  transition: all 0.2s;
+
+  &:hover {
+    background: #2B4C8C !important;
+    color: white !important;
+    border-color: #2B4C8C !important;
+  }
+}
+
+/* ── 카테고리 뱃지 ────────────────────────── */
+.categories .category-trigger,
+#categories .category-item {
+  &:hover { color: #2B4C8C !important; }
+  &.active, &.collapsed { color: #2B4C8C !important; }
+}
+
+/* ── 목차 (TOC) ───────────────────────────── */
+#toc-wrapper {
+  border-left: 2px solid #c5d3ec;
+}
+
+#toc li a {
+  color: #666;
+  &:hover { color: #2B4C8C; }
+  &.active { color: #2B4C8C; font-weight: 600; }
+}
+
+/* ── 코드 인라인 ──────────────────────────── */
+code:not([class]) {
+  background: #E8EEF8;
+  color: #1a3a7a;
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.87em;
+}
+
+/* ── 구분선 ───────────────────────────────── */
+hr { border-color: #dde4f0; }
+
+/* ── 텍스트 선택 ──────────────────────────── */
+::selection {
+  background: #c5d3ec;
+  color: #1a2f5e;
+}
+
+/* ── 스크롤바 ─────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb {
+  background: #9ab0d9;
+  border-radius: 3px;
+  &:hover { background: #2B4C8C; }
+}
+
+/* ── 포스트 구분선/날짜 색상 ─────────────── */
+.post-meta, .text-muted {
+  color: #7a8db0 !important;
+}
