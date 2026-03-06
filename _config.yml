@@ -41,15 +41,4 @@ google_analytics:
 html-proofer:
   ignore_urls:
     - "/tags/"
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      comments: false
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
+
