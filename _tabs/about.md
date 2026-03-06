@@ -3,6 +3,7 @@ layout: page
 title: About
 icon: fas fa-user
 order: 5
+permalink: /about/
 ---
 
 Hey, I'm Hestia 👋
