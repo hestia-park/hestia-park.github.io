@@ -1,0 +1,29 @@
+---
+---
+
+@import "main";
+
+#sidebar {
+  background: linear-gradient(180deg, #1a2f5e 0%, #2B4C8C 60%, #1e3a6e 100%) !important;
+  .site-title a { color: #ffffff !important; font-weight: 700; }
+  .site-subtitle { color: rgba(255,255,255,0.65) !important; }
+}
+
+#sidebar nav .nav-link {
+  color: rgba(255,255,255,0.8) !important;
+  border-radius: 8px;
+  &:hover { background: rgba(255,255,255,0.15) !important; color: #fff !important; }
+  &.active { background: rgba(255,255,255,0.2) !important; color: #fff !important; }
+}
+
+a { color: #2B4C8C; &:hover { color: #1a3a7a; } }
+h1, h2, h3 { color: #1a2f5e; }
+
+.post-tag {
+  background: #E8EEF8 !important;
+  color: #2B4C8C !important;
+  border: 1px solid #c5d3ec !important;
+  border-radius: 20px;
+}
+
+::selection { background: #c5d3ec; color: #1a2f5e; }
