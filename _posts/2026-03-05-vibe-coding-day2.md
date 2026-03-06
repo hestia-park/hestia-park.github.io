@@ -1,5 +1,5 @@
 ---
-title: "Vibe Coding Day 1: AI Image Automation, News Bot & ComfyUI"
+title: "Vibe Coding Day 2: AI Image Automation, News Bot & ComfyUI"
 date: 2026-03-05 09:00:00 +0900
 categories: [Vibe Coding, Day Log]
 tags: [claude, comfyui, stable diffusion, gemini, slack, notion, ticktick, github pages]
@@ -20,7 +20,7 @@ Three main things:
 
 | # | Task | Estimated | Actual | Status |
 |---|------|-----------|--------|--------|
-| 1 | GitHub Pages blog setup | 1 hr | 3 hr+ | ✅ Done (with a lot of debugging) |
+| 1 | GitHub Pages blog setup | 1 hr | 2 hr | ✅ Done (with a lot of debugging) |
 | 2 | Morning briefing Slack bot | 1 hr | 1.5 hr | ✅ Done |
 | 3 | ComfyUI image generation | 1 hr | ongoing | 🔄 In progress |
 
