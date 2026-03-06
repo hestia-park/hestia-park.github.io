@@ -6,16 +6,10 @@ order: 5
 ---
 
 Hey, I'm Hestia 👋
+A daily blog written from Toronto, Canada. It covers a variety of topics, including challenges, life, and IT.
 
-Based in Toronto, Canada.
-
-I write about two things:
-
-**Vibe Coding** — building things with AI. Automation scripts, tools, workflows. Claude writes most of the code; I figure out what to build and debug what breaks.
-
-**Small Biz** — documenting an attempt to start a nail tip business. Market research, product development, what worked, what didn't.
-
-This blog exists because GitHub contributions are great for developers but meaningless to everyone else. A blog makes the work visible to anyone.
+  캐나다 토론토에서 쓰는 일상 블로그.
+  도전, 라이프, IT 등 다양한 주제를 기록합니다.
 
 ---
 
